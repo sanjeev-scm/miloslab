@@ -1,0 +1,10 @@
+<button (click)="fetchPeople()">Fetch people</button>
+
+<p *ngIf="isLoading">Loading...</p>
+
+<div *ngIf="results">
+  <div *ngFor="let people of results">
+    <person-detail [people]="people"> </person-detail>
+  </div>
+
+</div>

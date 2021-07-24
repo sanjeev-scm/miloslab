@@ -1,0 +1,7 @@
+.container {
+  padding: 6px;
+  margin-top: 24px;
+  border: 1px solid royalblue;
+  display: flex;
+  justify-content: space-between;
+}
